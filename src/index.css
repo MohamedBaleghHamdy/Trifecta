@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.color {
+  color: #c05d67;
+}
+span {
+  color: black;
+  font-weight: 500;
+}
+.back {
+  background-image: linear-gradient(rgba(9, 9, 9, 0.4), rgba(6, 6, 6, 0.3)),
+    url("/public/assets/pexels-pixabay-263402\ 1.png");
+  background-size: "cover";
+  height: 100vh;
+  background-position: center;
+}
+h1 {
+  letter-spacing: 6px;
+  color: white !important;
+}
+.top {
+  margin-top: 20% !important;
+}
+button {
+  padding: 10px 30px;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px !important;
+  border: white solid 1px;
+}
+button:focus {
+  background-color: rgb(191, 0, 39);
+}
+#icon {
+  background-color: rgb(65, 0, 7);
+  font-size: 25px;
+  padding: 4px;
+  margin-right: 10px;
+  color: white !important;
+}
+.table {
+  background-color: rgb(252, 238, 244);
+  width: 43% !important;
+  margin: auto;
+}
+
+.imgg {
+  background-color: rgb(65, 0, 7);
+  width: 15%;
+}
+.cardd {
+  background-color: rgb(65, 0, 7);
+  color: white;
+}
+.bg {
+  background-color: rgb(252, 238, 244);
+}
+.form {
+  width: 50%;
+  margin: auto;
+  border: solid 1px rgb(65, 0, 7);
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+input {
+  border: transparent !important;
+  border-bottom: solid 1px !important;
+}
+.icon {
+  background-color: rgb(65, 0, 7);
+  color: aliceblue;
+  padding:10px ;
+  font-size: 3rem;
+  width: 10% !important;
+  border-radius: 50%;
+}
+@media (max-width: 900px) {
+  .top {
+    text-align: center;
+    margin-top: 200px !important;
+  }
+  .center {
+    text-align: center;
+  }
+  .d-con {
+    display: flex;
+    justify-content: center;
+  }
+  .img {
+    display: none;
+  }
+  .table {
+    display: none;
+  }
+}
