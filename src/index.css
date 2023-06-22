@@ -13,7 +13,7 @@ span {
 }
 .back {
   background-image: linear-gradient(rgba(9, 9, 9, 0.4), rgba(6, 6, 6, 0.3)),
-    url("/public/assets/pexels-pixabay-263402\ 1.png");
+    url("/assets/pexels-pixabay-263402\ 1.png");
   background-size: "cover";
   height: 100vh;
   background-position: center;
